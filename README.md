@@ -32,10 +32,13 @@ Output:
 **Foxyboi**(real-h1-size)
 
 
-(link)[https://nileshthakur2003.github.io/bracxy/]
+
 More of examples in `test.html` file of the Bracxy project...
 
 ## CAUTIONS: - 
 1. DONT USE ANY SPECIAL SYMBOL USED BY BRACXY INSIDE BRACXY SYNTAX.
 2. ITS NOT ANYTHING PROFESSIONAL. ONLY CREATED FOR FUN... )
 3. ITS QUITE QUITE SIMPLE
+
+https://nileshthakur2003.github.io/bracxy/
+

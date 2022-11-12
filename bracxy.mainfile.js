@@ -1,7 +1,7 @@
 
 var glob=document.body.innerHTML;
 var mod_html="";
-alert(glob);
+
 var ids={
     assgn:{start:"[@",end:"]"},
     dlvr:{start:"#"},
@@ -122,13 +122,10 @@ function read(gl){
            
           if (gl[x]==")") {
               triggers.tag=false;
-              alert(current.tag);
+              
               
               tags[0].push(current.tag);
-             tags[1].push({
-            start:temp.a,
-            end:eval(x)
-             });
+             tags[1].push({excerpt:glob.substring(temp.a,x)+")"});
               
                
               
@@ -156,9 +153,9 @@ read(glob);
 
 for(var i=0;i<tags[0].length;i++){
   var text = tags[0][i].substr(1,tags[0][i].length-1);
-     alert(text);
+   
   var port=traverse(document.querySelector(" body"),text);
-  alert(port.nodeName);
+ 
   port.appendChild(process_tag(tags[0][i]));
              
           
@@ -206,16 +203,27 @@ var before= document.body.innerHTML;
     
     
        before= before.replaceAll("#"+vars[0][x],vars[1][x]);
-       alert(before);
-       ;
+       
+      
+        
+    }
+    document.body.innerHTML=before;
+}
+function removeFunctionWaste(){
+    var before= document.body.innerHTML;
+    for(var x=0;x<tags[0].length;x++){
+    
+       
+       before=before.replace(tags[1][x].excerpt,"");
+       
         
     }
     document.body.innerHTML=before;
 }
 
-
-console.log(document.body.innerHTML);
+//console.log(document.body.innerHTML);
 
 
 
 removeInputVariables();
+removeFunctionWaste();

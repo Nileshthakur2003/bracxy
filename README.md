@@ -13,7 +13,7 @@ And another functionality of it is to provide `in page data-delivery`.
   [@hemlock=qwerty]
 
   Actually , he was typing #hemlock.
-<\body>
+</body>
  ```
 Output :-
 
@@ -25,7 +25,7 @@ Output :-
 <body>
   (@h1:"name=bigText":"FoxyBoi")
 
-<\body>
+</body>
 ```
 Output:
 
@@ -33,5 +33,5 @@ Output:
 
 
 
-More of examples in .html file of the Bracxy project...
+More of examples in `test.html` file of the Bracxy project...
 

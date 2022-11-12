@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Bracxy Project
 
-You can use the [editor on GitHub](https://github.com/Nileshthakur2003/bracxy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Its a pretty simple JavaScript and HTML project , which uses a few `custom syntaxes` to interpret HTML code from it .
+And another functionality of it is to provide `in page data-delivery`.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Functions in it : -
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1.**In-page data delivery**
 
-```markdown
-Syntax highlighted code block
+```html
+<body>
+  [@hemlock=qwerty]
 
-# Header 1
-## Header 2
-### Header 3
+  Actually , he was typing #hemlock.
+<\body>
+ ```
+Output :-
 
-- Bulleted
-- List
+` Actually , he was typing qwerty. `
 
-1. Numbered
-2. List
+2.**Tagging system simplified(basic)**
 
-**Bold** and _Italic_ and `Code` text
+```html
+<body>
+  (@h1:"name=bigText":"FoxyBoi")
 
-[Link](url) and ![Image](src)
+<\body>
 ```
+Output:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Foxyboi**(real-h1-size)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nileshthakur2003/bracxy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+More of examples in .html file of the Bracxy project...
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
